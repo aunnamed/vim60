@@ -8,4 +8,5 @@
   (lib (name res)(type KiCad)(uri ${KIPRJMOD}/lib/res.pretty)(options "")(descr ""))
   (lib (name tqfp)(type KiCad)(uri ${KIPRJMOD}/lib/tqfp.pretty)(options "")(descr ""))
   (lib (name usb)(type KiCad)(uri ${KIPRJMOD}/lib/usb.pretty)(options "")(descr ""))
+  (lib (name device)(type KiCad)(uri ${KIPRJMOD}/lib/device.pretty)(options "")(descr ""))
 )
