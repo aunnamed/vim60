@@ -2,7 +2,7 @@
 
 > Description
 >
-> * A 60% layout mechanical keyboard as below.
+> * A 60% layout mechanical keyboard.
 >
 >   ![](/Users/g/Project/vim60/vim60/layout/vim60_layout.png)
 
