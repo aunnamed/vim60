@@ -456,12 +456,8 @@ Wire Bus Line
 	5800 6450 6300 6450
 Wire Wire Line
 	5250 3250 5550 3250
-Wire Wire Line
-	5250 3450 5700 3450
-Text Label 5350 5750 0    50   ~ 0
+Text Label 5350 3750 0    50   ~ 0
 row01
-Entry Wire Line
-	5700 3450 5800 3550
 Wire Wire Line
 	5250 3550 5700 3550
 Entry Wire Line
@@ -494,23 +490,23 @@ Wire Wire Line
 	5250 4450 5700 4450
 Entry Wire Line
 	5700 4450 5800 4550
-Text Label 5350 3450 0    50   ~ 0
-row02
-Text Label 5350 3550 0    50   ~ 0
-row03
 Text Label 5350 3650 0    50   ~ 0
-row04
-Text Label 5350 3750 0    50   ~ 0
-row05
-Text Label 5350 3850 0    50   ~ 0
-col01
+row02
+Text Label 5350 5450 0    50   ~ 0
+row03
 Text Label 5350 3950 0    50   ~ 0
+row04
+Text Label 5350 3850 0    50   ~ 0
+row05
+Text Label 5350 5150 0    50   ~ 0
+col01
+Text Label 5350 5050 0    50   ~ 0
 col02
-Text Label 5350 4150 0    50   ~ 0
+Text Label 5350 4850 0    50   ~ 0
 col03
-Text Label 5350 4250 0    50   ~ 0
+Text Label 5350 4950 0    50   ~ 0
 col04
-Text Label 5350 4450 0    50   ~ 0
+Text Label 5350 4650 0    50   ~ 0
 col05
 Wire Wire Line
 	5250 4550 5700 4550
@@ -544,33 +540,33 @@ Wire Wire Line
 	5250 5450 5700 5450
 Entry Wire Line
 	5700 5450 5800 5550
-Text Label 5350 4550 0    50   ~ 0
-col06
-Text Label 5350 4650 0    50   ~ 0
-col07
 Text Label 5350 4750 0    50   ~ 0
+col06
+Text Label 5350 4550 0    50   ~ 0
+col07
+Text Label 5350 4450 0    50   ~ 0
 col08
-Text Label 5350 4850 0    50   ~ 0
+Text Label 5350 3550 0    50   ~ 0
 col09
-Text Label 5350 4950 0    50   ~ 0
+Text Label 5350 3350 0    50   ~ 0
 col10
-Text Label 5350 5050 0    50   ~ 0
+Text Label 5350 4250 0    50   ~ 0
 col11
-Text Label 5350 5150 0    50   ~ 0
+Text Label 5350 4150 0    50   ~ 0
 col12
-Text Label 5350 5450 0    50   ~ 0
+Text Label 5350 5650 0    50   ~ 0
 col13
 Wire Wire Line
 	5250 5650 5700 5650
 Entry Wire Line
 	5700 5650 5800 5750
-Text Label 5350 5650 0    50   ~ 0
+Text Label 5350 5750 0    50   ~ 0
 col14
 Wire Wire Line
 	5250 6050 5700 6050
 Entry Wire Line
 	5700 6050 5800 6150
-Text Label 5250 6050 0    50   ~ 0
+Text Label 5350 6050 0    50   ~ 0
 col15
 Entry Wire Line
 	6300 3750 6400 3650
@@ -885,12 +881,16 @@ F 3 "" H 4250 4700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5250 3350 5700 3350
-Wire Wire Line
-	5700 3350 5700 2650
-Wire Wire Line
-	5700 2650 6900 2650
-Text Label 5350 3350 0    50   ~ 0
+Text Label 5350 3450 0    50   ~ 0
 rgb
+Entry Wire Line
+	5700 3350 5800 3450
+Wire Wire Line
+	5250 3450 5650 3450
+Wire Wire Line
+	5650 3450 5650 2650
+Wire Wire Line
+	5650 2650 6900 2650
 Wire Bus Line
 	6300 3100 6300 6450
 Wire Bus Line
