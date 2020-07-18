@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:vim60-cache
+EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -14,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L vim60-rescue:WS2812B-LED D63
+L LED:WS2812B D63
 U 1 1 5E7C8114
 P 3850 3700
 F 0 "D63" H 4194 3746 50  0000 L CNN
@@ -25,7 +26,7 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3950 3325 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L vim60-rescue:WS2812B-LED D64
+L LED:WS2812B D64
 U 1 1 5E7CBF73
 P 4950 3700
 F 0 "D64" H 5294 3746 50  0000 L CNN
@@ -36,7 +37,7 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5050 3325 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L vim60-rescue:WS2812B-LED D65
+L LED:WS2812B D65
 U 1 1 5E7CD521
 P 6050 3700
 F 0 "D65" H 6394 3746 50  0000 L CNN
@@ -47,7 +48,7 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6150 3325 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L vim60-rescue:WS2812B-LED D68
+L LED:WS2812B D68
 U 1 1 5E7D0D80
 P 9300 3700
 F 0 "D68" H 9644 3746 50  0000 L CNN
@@ -58,7 +59,7 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9400 3325 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L vim60-rescue:WS2812B-LED D69
+L LED:WS2812B D69
 U 1 1 5E7D31CE
 P 10350 3700
 F 0 "D69" H 10694 3746 50  0000 L CNN
@@ -69,7 +70,7 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10450 3325 50  0001
 	1    0    0    -1  
 $EndComp
 $Comp
-L vim60-rescue:WS2812B-LED D70
+L LED:WS2812B D70
 U 1 1 5E7D31D4
 P 11450 3700
 F 0 "D70" H 11794 3746 50  0000 L CNN
@@ -80,7 +81,7 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 11550 3325 50  0001
 	1    0    0    -1  
 $EndComp
 $Comp
-L vim60-rescue:WS2812B-LED D80
+L LED:WS2812B D80
 U 1 1 5E7EA347
 P 3850 6750
 F 0 "D80" H 3506 6704 50  0000 R CNN
@@ -91,7 +92,7 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3950 6375 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L vim60-rescue:WS2812B-LED D79
+L LED:WS2812B D79
 U 1 1 5E7EA34D
 P 4950 6750
 F 0 "D79" H 4606 6704 50  0000 R CNN
@@ -102,7 +103,7 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5050 6375 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L vim60-rescue:WS2812B-LED D78
+L LED:WS2812B D78
 U 1 1 5E7EA353
 P 6050 6750
 F 0 "D78" H 5706 6704 50  0000 R CNN
@@ -113,7 +114,7 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6150 6375 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L vim60-rescue:WS2812B-LED D77
+L LED:WS2812B D77
 U 1 1 5E7EA359
 P 7100 6750
 F 0 "D77" H 6756 6704 50  0000 R CNN
@@ -124,7 +125,7 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7200 6375 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L vim60-rescue:WS2812B-LED D76
+L LED:WS2812B D76
 U 1 1 5E7EA35F
 P 8200 6750
 F 0 "D76" H 7856 6704 50  0000 R CNN
@@ -135,7 +136,7 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8300 6375 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L vim60-rescue:WS2812B-LED D75
+L LED:WS2812B D75
 U 1 1 5E7EA365
 P 9300 6750
 F 0 "D75" H 8956 6704 50  0000 R CNN
@@ -146,7 +147,7 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9400 6375 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L vim60-rescue:WS2812B-LED D74
+L LED:WS2812B D74
 U 1 1 5E7EA36B
 P 10350 6750
 F 0 "D74" H 10006 6704 50  0000 R CNN
@@ -157,7 +158,7 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10450 6375 50  0001
 	-1   0    0    1   
 $EndComp
 $Comp
-L vim60-rescue:WS2812B-LED D73
+L LED:WS2812B D73
 U 1 1 5E7EA371
 P 11450 6750
 F 0 "D73" H 11106 6704 50  0000 R CNN
@@ -224,7 +225,7 @@ Wire Wire Line
 Wire Wire Line
 	11450 4000 11450 4150
 $Comp
-L vim60-rescue:WS2812B-LED D71
+L LED:WS2812B D71
 U 1 1 5E7ED207
 P 12550 4600
 F 0 "D71" V 12504 4944 50  0000 L CNN
@@ -245,7 +246,7 @@ Connection ~ 12050 4600
 Wire Wire Line
 	12550 4900 12550 5250
 $Comp
-L vim60-rescue:WS2812B-LED D72
+L LED:WS2812B D72
 U 1 1 5E7ECAD2
 P 12550 5550
 F 0 "D72" V 12504 5894 50  0000 L CNN
@@ -282,7 +283,7 @@ Wire Wire Line
 Wire Wire Line
 	2800 5350 2800 5050
 $Comp
-L vim60-rescue:WS2812B-LED D82
+L LED:WS2812B D82
 U 1 1 5E7EC3EB
 P 2800 4750
 F 0 "D82" V 2846 4406 50  0000 R CNN
@@ -293,7 +294,7 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2900 4375 50  0001 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L vim60-rescue:WS2812B-LED D81
+L LED:WS2812B D81
 U 1 1 5E7EBA94
 P 2800 5650
 F 0 "D81" V 2846 5306 50  0000 R CNN
@@ -833,7 +834,7 @@ F 3 "" H 7400 3350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L vim60-rescue:WS2812B-LED D66
+L LED:WS2812B D66
 U 1 1 5E7D0D74
 P 7100 3700
 F 0 "D66" H 7444 3746 50  0000 L CNN
@@ -860,7 +861,7 @@ F 3 "" H 8500 3350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L vim60-rescue:WS2812B-LED D67
+L LED:WS2812B D67
 U 1 1 5E7D0D7A
 P 8200 3700
 F 0 "D67" H 8544 3746 50  0000 L CNN

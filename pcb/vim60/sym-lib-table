@@ -7,4 +7,5 @@
   (lib (name mx1a-simple)(type Legacy)(uri ${KIPRJMOD}/lib/mx1a-simple.lib)(options "")(descr ""))
   (lib (name oupiin_usb)(type Legacy)(uri ${KIPRJMOD}/lib/oupiin_usb.lib)(options "")(descr ""))
   (lib (name power)(type Legacy)(uri ${KIPRJMOD}/lib/power.lib)(options "")(descr ""))
+  (lib (name vim60-rescue)(type Legacy)(uri ${KIPRJMOD}/vim60-rescue.lib)(options "")(descr ""))
 )
